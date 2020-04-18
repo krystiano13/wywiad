@@ -1,0 +1,30 @@
+body {
+    margin : 0;
+    padding: 0;
+}
+p {
+    max-width: 40vw;
+    margin-top: 25vh;
+    font-size: x-large;
+
+}
+.monolog{
+    display: flex;
+    justify-content: center;
+    animation:wejscieHeadera 3s 0.1s;
+}
+@keyframes wejscieHeadera {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+        background: transparent;    
+    }
+    50% {
+        transform: translateY(50%);
+        opacity: 0;  
+        background: transparent;     
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
