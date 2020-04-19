@@ -12,7 +12,7 @@ body {
     display: block;
     left: 10vw;
     top: 15vh;
-    animation:wejscieHeadera 5s 0.1s;
+    animation:wejscieHeadera 3s 0.1s;
 }
 .xd {
     display: grid;
