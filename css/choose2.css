@@ -1,0 +1,61 @@
+body {
+    margin : 0;
+    padding : 0;
+    background-color: teal;
+}
+.KolesGif{
+    background-size: cover;
+    background-image: url('../assets/pixil-frame-0\ \(1\).png');
+    width : 35vw;
+    height: 35vw;
+    position: relative;
+    display: block;
+    left: 10vw;
+    top: 15vh;
+}
+.xd {
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-gap: 10vw;
+}
+.ChooseMenu{
+    display:grid;
+    grid-template-columns: repeat(1);
+    grid-gap: 1vh;
+    float:right;
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 15vh;
+}
+button {
+    border: none;
+    width : 25vw;
+    height : 8vh;
+    background: orange;
+    color : #2c3e50;
+    font-size: larger;
+    animation:wejscieHeadera 5s 0.1s;
+}
+h2 {
+    text-align: center;
+    color : #2c3e50;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    animation:wejscieHeadera 3s 0.1s;
+}
+@keyframes wejscieHeadera {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+        background: transparent;    
+    }
+    50% {
+        transform: translateY(50%);
+        opacity: 0;  
+        background: transparent;     
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}

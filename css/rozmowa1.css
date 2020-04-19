@@ -1,0 +1,80 @@
+body {
+    margin : 0;
+    padding : 0;
+    background-color: #333;
+}
+.oknoDSC {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    width : 100vw;
+    height : 98vh;
+    background-image: url('../assets/dsc2.png');
+    position: relative;
+}
+.handler {
+    display : grid;
+    grid-template-columns: repeat(1);
+    grid-gap:1vh;
+    width : 50vw;
+    height: 30vh;
+}
+.pozycjoner {
+    display : block;
+    left : 27%;
+    top : 10%;
+    width : 5px;
+    height: 5px;
+    position: absolute;
+}
+#d1{
+    position: relative;
+    
+}
+#d2{
+    position: relative;
+}
+#l1{
+    position: absolute;
+    font-size: larger;
+    display : block;
+    top : 25%;
+    left : 10%;
+}
+#l2{
+    position: absolute;
+    font-size: larger;
+    display : block;
+    top : 25%;
+    left : 10%;
+}
+label {
+    color: white;
+}
+.avatar {
+    width: 3vw;
+    height: 3vw;
+    background-image: url('../assets/maciek.png');
+    display: block;
+    position: absolute;
+    top : 17%;
+    background-size: cover;
+
+}
+.avatar2 {
+    width: 3vw;
+    height: 3vw;
+    background-image: url('../assets/piotrus.png');
+    display: block;
+    position: absolute;
+    top : 17%;
+    background-size: cover;
+
+}
+.o1,.o2,.o3 {
+    opacity: 0;
+    transition: 2s;
+}
+.appear {
+    opacity: 1;
+}

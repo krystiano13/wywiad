@@ -65,3 +65,6 @@ h1::after {
         opacity: 1;
     }
 }
+body {
+    background-color: teal;
+}
