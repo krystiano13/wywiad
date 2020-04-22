@@ -12,5 +12,5 @@ o2.addEventListener('transitionend',AddClasses3);
 setTimeout(AddClasses1,1000);
 
 const returnBtn = document.querySelector('.return');
-const returnToChoose = () => window.location.href = "../html/Choose2.html";
+const returnToChoose = () => window.location.href = "Choose2.html";
 returnBtn.addEventListener('click',returnToChoose);
