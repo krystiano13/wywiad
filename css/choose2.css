@@ -3,6 +3,9 @@ body {
     padding : 0;
     background-color: teal;
 }
+*{
+    box-sizing: border-box;
+}
 .KolesGif{
     background-size: cover;
     background-image: url('../assets/pixil-frame-0\ \(1\).png');
@@ -36,6 +39,11 @@ button {
     color : #2c3e50;
     font-size: larger;
     animation:wejscieHeadera 5s 0.1s;
+    transition: 1s;
+    border-bottom: orangered solid 0.5vh;
+}
+button:hover {
+    background:rgb(255, 123, 0);
 }
 h2 {
     text-align: center;
