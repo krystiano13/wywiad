@@ -3,10 +3,10 @@ const o2 = document.querySelector('.o2'); // okienka czatu
 const o3 = document.querySelector('.o3');
 const o4 = document.querySelector('.o4');
 
-const AddClasses1 = () => o1.classList.toggle('appear');
-const AddClasses2 = () => o2.classList.toggle('appear'); // Dodawanie klasy
-const AddClasses3 = () => o3.classList.toggle('appear');
-const AddClasses4 = () => o4.classList.toggle('appear');
+const AddClasses1 = () => o1.classList.add('appear');
+const AddClasses2 = () => o2.classList.add('appear'); // Dodawanie klasy
+const AddClasses3 = () => o3.classList.add('appear');
+const AddClasses4 = () => o4.classList.add('appear');
 
 o1.addEventListener('transitionend',AddClasses2);
 o2.addEventListener('transitionend',AddClasses3);
