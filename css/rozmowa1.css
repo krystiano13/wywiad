@@ -15,7 +15,7 @@ body {
 .handler {
     display : grid;
     grid-template-columns: repeat(1);
-    grid-gap:1vh;
+    grid-gap:0.5vh;
     width : 50vw;
     height: 30vh;
 }
@@ -40,6 +40,7 @@ body {
     display : block;
     top : 25%;
     left : 10%;
+    margin-top: 1vh;
 }
 #l2{
     position: absolute;
@@ -71,9 +72,20 @@ label {
     background-size: cover;
 
 }
-.o1,.o2,.o3 {
+.o1,.o2,.o3,.o4 {
     opacity: 0;
     transition: 2s;
+    
+}
+.o1{
+    height: 4vh;
+}
+.o3 {
+    margin-top: 5vh;
+    height : 5vh;
+}
+.o2 ,.o4{
+    height : 18vh;
 }
 .appear {
     opacity: 1;
@@ -100,3 +112,8 @@ button:hover {
     left : 8%;
     top: -22%;
 }
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
