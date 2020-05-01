@@ -17,11 +17,19 @@ body {
     grid-template-columns: repeat(1);
     grid-gap:0.5vh;
     width : 50vw;
-    height: 30vh;
+    height: 20vh;
 }
 @media screen and (min-height: 850px){
     .handler{
-        height: 26vh;
+        height: 15vh;
+    }
+    .o3 {
+        margin : 0;
+    }
+    .o2 {
+        margin : 0;
+        padding: 0;
+        height : 7vh;
     }
 }
 .pozycjoner {
@@ -80,17 +88,18 @@ label {
 .o1,.o2,.o3,.o4 {
     opacity: 0;
     transition: 2s;
+    margin: 0;
+    padding: 0;
     
 }
 .o1{
     height: 4vh;
 }
 .o3 {
-    margin-top: 5vh;
     height : 5vh;
 }
 .o2 ,.o4{
-    height : 18vh;
+    height : 10vh;
 }
 .appear {
     opacity: 1;

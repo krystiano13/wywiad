@@ -17,11 +17,12 @@ body {
     grid-template-columns: repeat(1);
     grid-gap:0.5vh;
     width : 50vw;
-    height: 30vh;
+    height: 25vh;
+    margin-top: 1vh;
 }
 @media screen and (min-height: 850px){
-    .handler{
-        height: 26vh;
+    .handler {
+        height: 15vh;
     }
 }
 .pozycjoner {
@@ -77,20 +78,20 @@ label {
     background-size: cover;
 
 }
-.o1,.o2,.o3,.o4 {
+.o1,.o2 {
     opacity: 0;
     transition: 2s;
+    margin: 0;
     
 }
 .o1{
-    height: 4vh;
+    height: 2vh;
+    margin: 0;
 }
-.o3 {
-    margin-top: 5vh;
-    height : 5vh;
-}
-.o2 ,.o4{
+
+.o2 {
     height : 18vh;
+    margin: 0;
 }
 .appear {
     opacity: 1;
