@@ -15,19 +15,19 @@ p {
     animation:wejscieHeadera 3s 0.1s;
 }
 button {
-    border: none;
+    border: white solid .25vh;
     width : 25vw;
     height : 8vh;
-    background: orange;
-    color : #2c3e50;
+    background: transparent;
+    color : white;
     font-size: larger;
     animation:wejscieHeadera 5s 0.1s;
     margin-left: 30vw;
-    border-bottom: orangered solid 0.5vh;
     transition: 1s;
   }
   button:hover {
-    background:rgb(255, 123, 0);
+    background:white;
+    color: teal;
 }
 @keyframes wejscieHeadera {
     0% {
