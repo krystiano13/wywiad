@@ -22,7 +22,7 @@ button {
     color : white;
     font-size: larger;
     animation:wejscieHeadera 5s 0.1s;
-    margin-left: 30vw;
+    margin-left:30vw;
     transition: 1s;
   }
   button:hover {
